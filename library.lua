@@ -1631,11 +1631,11 @@
 					image = "rbxassetid://115194686863276",
 				})
 
-				local watermark = library:watermark({default = os.date(properties and properties.name .. ' |  %H:%M:%S')})  
+				local watermark = library:watermark({default = os.date('t s u n a m i . w i n  |  %b %d %Y  |  DEV BUILD  |  %H:%M:%S')})  
 
 				task.spawn(function()
 					while task.wait(1) do 
-						watermark.change_text(os.date(properties and properties.name .. ' |  %H:%M:%S'))
+						watermark.change_text(os.date('t s u n a m i . w i n  |  %b %d %Y  |  DEV BUILD  |  %H:%M:%S'))
 					end 
 				end) 
 
