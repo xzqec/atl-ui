@@ -599,7 +599,7 @@
 				local UIGradient = library:create("UIGradient", {
 					Parent = watermark_background,
 					Name = "",
-					Color = rgbseq{rgbkey(0, rgb(41, 41, 55)), rgbkey(1, rgb(35, 35, 47))}
+					Color = rgbseq{rgbkey(0, rgb(30, 30, 30)), rgbkey(1, rgb(20, 20, 20))}
 				}); library:apply_theme(UIGradient, "contrast", "Color")
 				
 				local text = library:create("TextLabel", {
@@ -737,8 +737,8 @@
 						Name = "",
 						Rotation = 90,
 						Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 					})
 		
@@ -812,8 +812,8 @@
 						Name = "",
 						Rotation = 90,
 						Color = rgbseq{
-							rgbkey(0, rgb(41, 41, 55)),
-							rgbkey(1, rgb(35, 35, 47))
+							rgbkey(0, rgb(30, 30, 30)),
+							rgbkey(1, rgb(20, 20, 20))
 						}
 					})
 					
@@ -885,8 +885,8 @@
 						Name = "",
 						Rotation = 90,
 						Color = rgbseq{
-							rgbkey(0, rgb(35, 35, 47)),
-							rgbkey(1, rgb(41, 41, 55))
+							rgbkey(0, rgb(20, 20, 20)),
+							rgbkey(1, rgb(30, 30, 30))
 						}
 					}) library:apply_theme(UIGradient, "contrast", "Color") 
 					
@@ -1364,8 +1364,8 @@
 					Name = "",
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 			-- 
@@ -1613,8 +1613,8 @@
 					Parent = background,
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				})
 				
@@ -1868,8 +1868,8 @@
 				Name = "",
 				Rotation = 90,
 				Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 			}) library:apply_theme(UIGradient, "contrast", "Color") 
 			
@@ -2539,7 +2539,7 @@
 				local UIGradient = library:create("UIGradient", {
 					Parent = background,
 					Rotation = 90,
-					Color = rgbseq{rgbkey(0, rgb(41, 41, 55)), rgbkey(1, rgb(35, 35, 47))}
+					Color = rgbseq{rgbkey(0, rgb(30, 30, 30)), rgbkey(1, rgb(20, 20, 20))}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 
 				local text = library:create("TextLabel", {
@@ -2703,7 +2703,7 @@
 				Parent = __background,
 				Name = "",
 				Rotation = 90,
-				Color = rgbseq{rgbkey(0, rgb(41, 41, 55)), rgbkey(1, rgb(35, 35, 47))}
+				Color = rgbseq{rgbkey(0, rgb(30, 30, 30)), rgbkey(1, rgb(20, 20, 20))}
 			}) library:apply_theme(UIGradient, "contrast", "Color") 
 			
 			local tab_holder = library:create("Frame", {
@@ -2763,7 +2763,7 @@
 						Parent = background,
 						Name = "",
 						Rotation = 90,
-						Color = rgbseq{rgbkey(0, rgb(41, 41, 55)), rgbkey(1, rgb(35, 35, 47))}
+						Color = rgbseq{rgbkey(0, rgb(30, 30, 30)), rgbkey(1, rgb(20, 20, 20))}
 					}) library:apply_theme(UIGradient, "contrast", "Color")
 					
 					local text = library:create("TextLabel", {
@@ -2939,8 +2939,8 @@
 				Parent = background,
 				Rotation = 90,
 				Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 			}) library:apply_theme(UIGradient, "contrast", "Color") 
 
@@ -3162,8 +3162,8 @@
 					Parent = contrast,
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}); library:apply_theme(UIGradient, "contrast", "Color")
 				
@@ -3399,8 +3399,8 @@
 					Rotation = 90,
 					Name = "_",
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 			--  
@@ -3549,8 +3549,8 @@
 					Rotation = 90,
 					Name = "_",
 					Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 				
@@ -3649,8 +3649,8 @@
 					Rotation = 90,
 					Name = "_",
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 				
@@ -4114,8 +4114,8 @@
 				Name = "",
 				Rotation = 90,
 				Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 			}); library:apply_theme(UIGradient, "contrast", "Color") 
 			
@@ -4239,8 +4239,8 @@
 					Name = "",
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}); library:apply_theme(UIGradient, "contrast", "Color")
 				
@@ -4648,8 +4648,8 @@
 					Parent = contrast,
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 				
@@ -4755,8 +4755,8 @@
 					Parent = contrast,
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 			
@@ -5016,8 +5016,8 @@
 					Name = "",
 					Rotation = 90,
 					Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 				}) library:apply_theme(UIGradient, "contrast", "Color") 
 				
@@ -5268,8 +5268,8 @@
 					Name = "",
 					Rotation = 90,
 					Color = rgbseq{
-						rgbkey(0, rgb(41, 41, 55)),
-						rgbkey(1, rgb(35, 35, 47))
+						rgbkey(0, rgb(30, 30, 30)),
+						rgbkey(1, rgb(20, 20, 20))
 					}
 				})
 				
@@ -5439,8 +5439,8 @@
 				Name = "",
 				Rotation = 90,
 				Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 			})
 			
@@ -5682,8 +5682,8 @@
 					Name = "",
 					Rotation = 90,
 					Color = rgbseq{
-					rgbkey(0, rgb(41, 41, 55)),
-					rgbkey(1, rgb(35, 35, 47))
+					rgbkey(0, rgb(30, 30, 30)),
+					rgbkey(1, rgb(20, 20, 20))
 				}
 				}); library:apply_theme(UIGradient, "contrast", "Color") 
 				
