@@ -67,7 +67,7 @@
 
 -- library init
 	local library = {
-		directory = "Atlanta",
+		directory = "tsunami",
 		folders = {
 			"/fonts",
 			"/configs",
@@ -102,16 +102,16 @@
 	local config_flags = library.config_flags
 
   	local themes = {
-  	preset = {
-  		["outline"]      = hex("#0A0A0A"), -- Base dark border
-  		["inline"]       = hex("#1E1E1E"), -- Inner dark panel
-  		["accent"]       = hex("#00FFFF"), -- Cyan accent
-  		["high_contrast"]= hex("#141414"), -- Darker bg blocks
-  		["low_contrast"] = hex("#1E1E1E"), -- Slight contrast
-  		["text"]         = hex("#BFFFFF"), -- Soft aqua-white text
-  		["text_outline"] = rgb(0, 0, 0),   -- Black outline for readability
-  		["glow"]         = hex("#00CED1"), -- Aqua/teal glow (tsunami vibe)
-  	},
+		preset = {
+			["outline"]      = hex("#0A0A0A"), -- Base dark border
+			["inline"]       = hex("#1E1E1E"), -- Inner dark panel
+			["accent"]       = hex("#00FFFF"), -- Cyan accent
+			["high_contrast"]= hex("#141414"), -- Darker bg blocks
+			["low_contrast"] = hex("#1E1E1E"), -- Slight contrast
+			["text"]         = hex("#BFFFFF"), -- Soft aqua-white text
+			["text_outline"] = rgb(0, 0, 0),   -- Black outline for readability
+			["glow"]         = hex("#00CED1"), -- Aqua/teal glow (tsunami vibe)
+		},
 
 		utility = {
 			["outline"] = {
