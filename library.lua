@@ -1635,7 +1635,7 @@
 
 				task.spawn(function()
 					while task.wait(1) do 
-						watermark.change_text(os.date('Atlanta - Beta - %b %d %Y - %H:%M:%S'))
+						watermark.change_text(os.date(properties and properties.name .. ' |  %H:%M:%S'))
 					end 
 				end) 
 
